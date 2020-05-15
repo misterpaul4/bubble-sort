@@ -8,9 +8,9 @@
 ## Getting Started
 clone the repository to your machine then navigate to the directory. Run the code and call the methods with an array parameter
 
-  bubble_sort(Array)
+1. bubble_sort(Array)
 
-  bubble_sort_by(Array) {|element, next_element| element <=> next_element}
+2. bubble_sort_by(Array) {|element, next_element| element <=> next_element}
   a positive return value from the block will sort the array
 
 ### Milestones
