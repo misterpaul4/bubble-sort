@@ -10,8 +10,9 @@ clone the repository to your machine then navigate to the directory. Run the cod
 
 1. bubble_sort(Array)
 
-2. bubble_sort_by(Array) {|element, next_element| element <=> next_element}
-  a positive return value from the block will sort the array
+2. bubble_sort_by(Array) {|left,  right|   left  <=>  right}
+
+  	A positive return value from the block will sort the array
 
 ### Milestones
 - To build a method #bubble_sort that takes an array and returns a sorted array.
